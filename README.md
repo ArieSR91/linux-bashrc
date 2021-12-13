@@ -1,1 +1,2 @@
 # kali-bashrc
+mv .bashrc ~
