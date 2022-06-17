@@ -1,4 +1,3 @@
 # kali-bashrc
 command:\
-cd kali-bashrc\
-mv .bashrc ~
+rm .bashrc && wget https://raw.githubusercontent.com/ArieSR91/kali-bashrc/main/.bashrc
