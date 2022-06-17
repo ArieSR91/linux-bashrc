@@ -128,7 +128,17 @@ fi
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
-
+alias c='clear'
+alias x='exit'
+alias cl='clear'
+alias clr='clear'
+alias cls='clear'
+alias nn='nano'
+alias nf='neofetch'
+alias py2='python2'
+alias py3='python3'
+alias cnf='clear && neofetch'
+alias cls='clear && ls'
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
