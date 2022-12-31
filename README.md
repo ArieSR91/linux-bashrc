@@ -1,5 +1,5 @@
-# kali-bashrc
-command:
+# linux-bashrc
+kali:
 ```
-rm .bashrc && wget https://raw.githubusercontent.com/ArieSR91/kali-bashrc/main/.bashrc
+wget https://raw.githubusercontent.com/ArieSR91/linux-bashrc/main/kalirc; mv kalirc .bashrc
 ```
