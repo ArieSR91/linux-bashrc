@@ -58,10 +58,10 @@ fi
 
 # The following block is surrounded by two delimiters.
 # These delimiters must not be modified. Thanks.
-# START KALI CONFIG VARIABLES
+# START DEBIAN CONFIG VARIABLES
 PROMPT_ALTERNATIVE=twoline
 NEWLINE_BEFORE_PROMPT=yes
-# STOP KALI CONFIG VARIABLES
+# STOP DEBIAN CONFIG VARIABLES
 
 if [ "$color_prompt" = yes ]; then
     # override default virtualenv indicator in prompt
@@ -97,7 +97,7 @@ xterm*|rxvt*|Eterm|aterm|kterm|gnome*|alacritty)
     ;;
 esac
 
-[ "$NEWLINE_BEFORE_PROMPT" = no ] && PROMPT_COMMAND="PROMPT_COMMAND=echo"
+[ "$NEWLINE_BEFORE_PROMPT" = yes ] && PROMPT_COMMAND="PROMPT_COMMAND=echo"
 
 # enable color support of ls, less and man, and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
