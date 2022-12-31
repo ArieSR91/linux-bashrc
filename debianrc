@@ -73,7 +73,7 @@ if [ "$color_prompt" = yes ]; then
     if [ "$EUID" -eq 0 ]; then # Change prompt colors for root user
         prompt_color='\[\033[1;97m\]'
         info_color='\[\033[1;0m\]'
-        prompt_symbol=@
+        prompt_symbol=💀
     fi
     case "$PROMPT_ALTERNATIVE" in
         twoline)
