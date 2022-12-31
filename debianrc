@@ -68,10 +68,10 @@ if [ "$color_prompt" = yes ]; then
     VIRTUAL_ENV_DISABLE_PROMPT=1
 
     prompt_color='\[\033[1;31m\]'
-    info_color='\[\033[0m\]'
+    info_color='\[\033[1;39m\]'
     prompt_symbol=@
     if [ "$EUID" -eq 0 ]; then # Change prompt colors for root user
-        prompt_color='\[\033[0m\]'
+        prompt_color='\[\033[1;39m\]'
         info_color='\[\033[1;31m\]'
         prompt_symbol=💀
     fi
