@@ -124,23 +124,16 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
+# aliases
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
-alias c='clear'
-alias x='exit'
+alias lo='la -l'
 alias cl='clear'
 alias clr='clear'
-alias cls='clear'
-alias nn='nano'
-alias nf='neofetch'
-alias py2='python2'
-alias py3='python3'
 alias cnf='clear && neofetch'
 alias cls='clear && ls'
-alias vstr='vnc start'
-alias vstp='vnc stop'
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
