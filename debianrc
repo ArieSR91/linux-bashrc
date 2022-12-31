@@ -68,12 +68,12 @@ if [ "$color_prompt" = yes ]; then
     VIRTUAL_ENV_DISABLE_PROMPT=1
 
     prompt_color='\[\033[1;31m\]'
-    info_color='\[\033[1;97m\]'
+    info_color='\[\033[1;0m\]'
     prompt_symbol=@
     if [ "$EUID" -eq 0 ]; then # Change prompt colors for root user
-        prompt_color='\[\033[1;97m\]'
+        prompt_color='\[\033[1;0m\]'
         info_color='\[\033[1;31m\]'
-        prompt_symbol=@
+        prompt_symbol=💀
     fi
     case "$PROMPT_ALTERNATIVE" in
         twoline)
@@ -124,7 +124,7 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
+# aliases
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
@@ -133,6 +133,7 @@ alias clr='clear'
 alias lo='la -l'
 alias cnf='clear && neofetch'
 alias cls='clear && ls'
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
