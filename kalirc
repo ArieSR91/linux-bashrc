@@ -97,7 +97,7 @@ xterm*|rxvt*|Eterm|aterm|kterm|gnome*|alacritty)
     ;;
 esac
 
-[ "$NEWLINE_BEFORE_PROMPT" = no ] && PROMPT_COMMAND="PROMPT_COMMAND=echo"
+[ "$NEWLINE_BEFORE_PROMPT" = yes ] && PROMPT_COMMAND="PROMPT_COMMAND=echo"
 
 # enable color support of ls, less and man, and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
