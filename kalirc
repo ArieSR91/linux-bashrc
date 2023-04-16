@@ -60,7 +60,7 @@ fi
 # These delimiters must not be modified. Thanks.
 # START KALI CONFIG VARIABLES
 PROMPT_ALTERNATIVE=twoline
-NEWLINE_BEFORE_PROMPT=yes
+NEWLINE_BEFORE_PROMPT=no
 # STOP KALI CONFIG VARIABLES
 
 if [ "$color_prompt" = yes ]; then
@@ -131,7 +131,8 @@ alias l='ls -CF'
 alias lo='la -l'
 alias cl='clear'
 alias clr='clear'
-alias cnf='clear && neofetch'
+alias nf='neofetch --ascii_distro $@'
+alias cnf='clear && neofetch --ascii_distro $@'
 alias cls='clear && ls'
 
 # Alias definitions.
